@@ -1,0 +1,884 @@
+{
+  "spellData": [
+    {
+      "Nombre": "Acelerar",
+      "Coste": 9,
+      "Requisitos": ["Esencia mágica maestra"],
+      "Palabras": "Acceleratur potentatum tenens cum magicae",
+      "Gestos": "Frotarse las manos muy deprisa, palma contra palma",
+      "Efectos": "El objetivo afectado recibe una acción adicional.\nAlcance 20m\nUsarlo cuesta 2 acciones. Mantenerlo requiere una acción cada turno. "
+    },
+    {
+      "Nombre": "Adivinación",
+      "Coste": 6,
+      "Requisitos": ["Esencia mágica"],
+      "Palabras": "Futura veni ad meam, ego futuro titulari",
+      "Gestos": "Colocar una mano con la palma hacia arriba y la otra encima con la palma hacia abajo",
+      "Efectos": "NO COMBINABLE\nReglas sobre adivinación:\nEl objetivo puede hacer una TSVOL con dificultad 10+nivel y si la supera, entonces falla el hechizo y no se puede escudriñar más hasta que pase un día. \nHay modificadores a la dificultad de la TSVOL:\nSi no sabes nada del objetivo, -20 dificultad. \nSi solamente conoces al objetivo de nombre y poco más, -10 dificultad. \nSi tienes algo que perteneció a esa persona, +5 dificultad. \nSi tienes algo del cuerpo de esa persona, +10 dificultad   "
+    },
+    {
+      "Nombre": "Afilado",
+      "Coste": 3,
+      "Requisitos": [],
+      "Palabras": "Magicae ore / cutem rumpit /  et corpore permanare dicit in ossa",
+      "Gestos": "Pasar los dedos por el filo de una espada imaginaria",
+      "Efectos": "Combinado con un hechizo que pueda causar críticos, suma +1 al d6 de crítico. \nEste componente se puede combinar sin tener en cuenta que sea de aprendiz."
+    },
+    {
+      "Nombre": "Alas animales",
+      "Coste": 3,
+      "Requisitos": ["Esencia animal"],
+      "Palabras": "Animalia alarum",
+      "Gestos": "Extender los brazos",
+      "Efectos": "El personaje adquiere alas, que le permiten volar a velocidad 30m.\nSe debe combinar con algún componente para que dure, como por ejemplo, “imbuir magia”. "
+    },
+    {
+      "Nombre": "Alas astrales",
+      "Coste": 3,
+      "Requisitos": ["Esencia astral"],
+      "Palabras": "Stella alarum",
+      "Gestos": "Extender los brazos",
+      "Efectos": "El personaje puede volar a velocidad 30m.\nSe debe combinar con algún componente para que dure, como por ejemplo, “imbuir magia”."
+    },
+    {
+      "Nombre": "Alivio del corazón",
+      "Coste": 3,
+      "Requisitos": ["Esencia astral"],
+      "Palabras": "Relevium cuore est",
+      "Gestos": "Una mano sobre el corazón y la otra tapa los ojos",
+      "Efectos": "Alivia y calma los sentimientos negativos. "
+    },
+    {
+      "Nombre": "Almacenar cargas",
+      "Coste": 3,
+      "Requisitos": ["Esencia mágica"],
+      "Palabras": "Nisi aliquo praetio",
+      "Gestos": "Las dos manos en el corazón y la cabeza hacia abajo",
+      "Efectos": "Debe combinarse para que dure. \nSolamente se puede usar sobre el propio mago.\nAlmacena componentes tantos como un tercio del nivel. Puede almacenar hechizos pero ocupan tanto como sus componentes y solamente se puede almacenar un tipo de cosa, nada de mezclar un hechizo y componentes sueltos. \nLos hechizos se liberan con la acción gratuita (si ya está gastada la gratuita, se liberan con una acción normal).\nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Amanuense",
+      "Coste": 3,
+      "Requisitos": ["Esencia mágica"],
+      "Palabras": "Opus apud manibus",
+      "Gestos": "Gesto de escribir en el aire",
+      "Efectos": "Cuesta en lanzarse algo de tiempo… Según lo largo o detallado que sea… \nFunciona durante 1 hora por nivel.\nCopia texto o imágenes desde donde se le diga hasta un lugar adecuado para escribir (libro, por ejemplo). El hechizo copia a una velocidad de una página por minuto, aproximadamente. \nSe le debe dar materiales."
+    },
+    {
+      "Nombre": "Amistad",
+      "Coste": 3,
+      "Requisitos": ["Esencia animal"],
+      "Palabras": "Bestiales amicitia",
+      "Gestos": "Ponerse una mano en el corazón",
+      "Efectos": "Intenta calmar a un animal y hacerle ver al personaje de forma más amistosa."
+    },
+    {
+      "Nombre": "Amnesia",
+      "Coste": 12,
+      "Requisitos": ["Esencia animal maestra"],
+      "Palabras": "Animos ad eos inveniendos, scribere scripsi delens",
+      "Gestos": "Señalarse la cabeza",
+      "Efectos": "TSVOL 5+mitad de nivel. Si la falla el objetivo, el personaje podrá, usando una acción por cada cosa que haga, ir consultando recuerdos, borrando recuerdos o implantando nuevos. Si se interrumpe la concentración, el hechizo debe volver a lanzarse. La víctima no será capaz de saber qué se le ha modificado y qué no.\nEs una maldición, y puede ser eliminada, lo que deshace los cambios que se hicieron.\nSolo funciona con animales."
+    },
+    {
+      "Nombre": "Amplificar magia",
+      "Coste": 6,
+      "Requisitos": ["Esencia mágica superior"],
+      "Palabras": "Amplificare magicae / falta una más",
+      "Gestos": "Las manos se colocan como una bocina en la boca al decir las palabras",
+      "Efectos": "Dobla el tiempo de lanzamiento del hechizo.\nProporciona una de las siguiente mejoras:\nAlcance: Aumenta un 100%.\nRadio: Aumenta un 50%. \nDaño: Se dobla.\nTS: Se considera al mago de 6 niveles más.\nHay una versión maestra (coste 9)"
+    },
+    {
+      "Nombre": "Ancla dimensional",
+      "Coste": 6,
+      "Requisitos": ["Esencia mágica superior"],
+      "Palabras": "Anchoris a mundo relegato",
+      "Gestos": "Señalar con ambos índices al suelo",
+      "Efectos": "El objetivo hace una TS VOL 10+nivel. Si la falla, no podrá cambiar de dimensión, teletransportarse ni nada similar durante 1 minuto por nivel. \nSi no afecta a un solo objetivo, entonces la TS tiene -5.  "
+    },
+    {
+      "Nombre": "Asalto mental",
+      "Coste": 6,
+      "Requisitos": ["Esencia animal superior"],
+      "Palabras": "Animos ad eos inveniendos",
+      "Gestos": "Señalarse la cabeza",
+      "Efectos": "TSVOL 10+nivel. Si falla, la mente del objetivo podrá ser leída por el personaje mientras siga concentrándose. "
+    },
+    {
+      "Nombre": "Aura astral",
+      "Coste": 3,
+      "Requisitos": ["Esencia astral"],
+      "Palabras": "Supermundanae meridiem",
+      "Gestos": "Cruzar los brazos sobre el torso",
+      "Efectos": "Da RD igual a la mitad del nivel. \nSi no se combina para que dure, no se notará. "
+    },
+    {
+      "Nombre": "Aura de fuerza",
+      "Coste": 3,
+      "Requisitos": ["Esencia mágica"],
+      "Palabras": "Aura roboris",
+      "Gestos": "Extender los brazos con las palmas hacia arriba",
+      "Efectos": "Da RD igual a la mitad del nivel. Si no se combina para que dure, no se notará. "
+    },
+    {
+      "Nombre": "Cadena mágica",
+      "Coste": 3,
+      "Requisitos": ["Esencia mágica"],
+      "Palabras": "Torquem magicam",
+      "Gestos": "Con pulgar e índice de una mano rodear la muñeca de la otra",
+      "Efectos": "Si impacta el objetivo es atrapado con una presa. Si es un solo objetivo será presa 10+nivel, restándose -2 a la presa por cada objetivo adicional. \nMantener las cadenas cuesta 1 acción normal."
+    },
+    {
+      "Nombre": "Cambio de forma",
+      "Coste": 3,
+      "Requisitos": [],
+      "Palabras": "Mutatio figuram / quod sum / falta",
+      "Gestos": "Pasar las manos por los hombros, codos y hasta las muñecas.",
+      "Efectos": "Debe combinarse con una esencia superior o mejor.\nPermite cambio de forma… Para ahorrar largas descripciones, ver los rasgos de la clase “hechicero”.\nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Caminar entre dos mundos",
+      "Coste": 3,
+      "Requisitos": [],
+      "Palabras": "Inter duos orbes / transit iter / loca periculosa",
+      "Gestos": "Hacer gesto de caminar moviendo los dedos de la mano",
+      "Efectos": "Combinado con una esencia, permite entrar en el plano correspondiente un turno por cada 2 niveles \nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Camino de esencia",
+      "Coste": 3,
+      "Requisitos": [],
+      "Palabras": "Essentia autem / graditur sapiens / essentiae in via",
+      "Gestos": "Hacer gesto de caminar moviendo los dedos de la mano",
+      "Efectos": "Combinado con una esencia, permite viajar entre dos focos de esa esencia, y una distancia máxima de 10m por nivel. \nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Clon",
+      "Coste": 12,
+      "Requisitos": ["Esencia animal maestra"],
+      "Palabras": "Speculum animae meae speculis omnia quae sum",
+      "Gestos": "Colocar las palmas de las manos delante de los ojos",
+      "Efectos": "Tarda una hora en lanzarse. \nCrea un clon del lanzador de duración ilimitada al lado del personaje. \nEl original posee telepatía con su clon.  \nEl clon es idéntico al original, excepto en los siguiente: \nSolo se clona biológicamente: No se clonan los objetos. \nTendrá solo un 25% de la vida del original. \nTendrá -5 ataque, defensa, TS y habilidades.\nPosee un cuarto del nivel al usar magia"
+    },
+    {
+      "Nombre": "Cono",
+      "Coste": 3,
+      "Requisitos": [],
+      "Palabras": "Pyramis impetum",
+      "Gestos": "Soplar",
+      "Efectos": "Crea un cono de tantos metros de largo como el nivel x2, y la mitad de ancho. \nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Conservación",
+      "Coste": 3,
+      "Requisitos": ["Esencia nigromántica"],
+      "Palabras": "Castigo mortuis",
+      "Gestos": "Señalar el cuerpo con el dedo corazón",
+      "Efectos": "Dura 1 día por nivel.  Evita que un cuerpo se pudra. "
+    },
+    {
+      "Nombre": "Contagio",
+      "Coste": 3,
+      "Requisitos": ["Esencia astral"],
+      "Palabras": "Expansum mea essentia",
+      "Gestos": "Abrir los brazos mucho",
+      "Efectos": "El objetivo hace una TSFOR 10+nivel para evitar contraer una enfermedad.  En el archivo “reglas avanzadas” se describen varias enfermedades. "
+    },
+    {
+      "Nombre": "Control",
+      "Coste": 3,
+      "Requisitos": [],
+      "Palabras": "Imperium et dominatione",
+      "Gestos": "Dar una palmada",
+      "Efectos": "Alcance 20m, afectando a un solo objetivo (excepto en el caso de que sea controlar a algo continuo, como agua o tierra, en cuyo caso funciona como los hechizos de control de los hechiceros). Este hechizo se puede combinar para que afecte a varios objetivos, sea en área, etc. \nCombinado con una esencia, permite controlar mentalmente algo según la esencia.\nSi tiene voluntad propia, entonces puede hacer una TSVOL con dificultad 5+mitad de nivel para evitar el control. \nEl controlador utiliza sus propias acciones para que el controlado haga acciones, y es capaz de percibir todo lo que el controlado percibe. El controlado, si no recibe órdenes, no puede hacer nada.\nBajo una situación extrema (intentar que se suicide, que mate a alguien que jamás dañaría, etc) el controlado puede hacer una TS para intentar romper el control. \nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Crear diablillo",
+      "Coste": 6,
+      "Requisitos": ["Esencia astral superior", "Imbuir de poder superior"],
+      "Palabras": "NO",
+      "Gestos": "NO",
+      "Efectos": "Funciona de forma idéntica al rasgo “crear diablillo” de la clase “astral”.   \nHay tres versiones mejoradas: la maestra (coste 9) y la épica (coste 15) "
+    },
+    {
+      "Nombre": "Crear sangre",
+      "Coste": 6,
+      "Requisitos": ["Esencia animal superior"],
+      "Palabras": "Sanguis enim eourum por anima essentia",
+      "Gestos": "Señalar el corazón con el dedo índice y luego recorrer con el dedo desde el corazón hasta la punta de los dedos",
+      "Efectos": "Crea un litro de sangre por nivel, de forma permanente. La sangre es del grupo sanguíneo y raza que se prefiera. "
+    },
+    {
+      "Nombre": "Crear vida",
+      "Coste": 24,
+      "Requisitos": ["Esencia animal épica"],
+      "Palabras": "Ego tibi vitam, ut vitas creator praecipio vobis ut crescant, et multiplicamini et mortere in finis  cum laetitia et tristitia",
+      "Gestos": "Señalar con los dedos índice la cabeza, luego el pecho, a continuación abrir las manos y alzarlas al cielo",
+      "Efectos": "Tarda 1 hora en lanzarse.\nRequiere inteligencia 15, sabiduría 15 y nivel 12.\nCrea un nuevo animal, completamente funcional, real y permanente. Puede tener 1 nivel por cada 4 niveles del mago. "
+    },
+    {
+      "Nombre": "Fuente de la vida vegetal",
+      "Coste": 9,
+      "Requisitos": ["Esencia vegetal maestra"],
+      "Palabras": "FALTA",
+      "Gestos": "FALTA",
+      "Efectos": "Utiliza la energía del hechizo para hacer crecer a una planta o un grupo de plantas. Es un crecimiento tranquilo, no explosivo, con poca utilidad para el combate. El narrador tiene la última palabra… "
+    },
+    {
+      "Nombre": "Crecimiento vegetal",
+      "Coste": 3,
+      "Requisitos": ["Esencia vegetal"],
+      "Palabras": "Vegetabile cresce",
+      "Gestos": "Señalar el suelo y luego levantar los brazos señalando",
+      "Efectos": "Fertilidad: En un radio de un metro por puntuación en la habilidad, la tierra quedará fertilizada, abonada y lista para dar una abundante cosecha durante un año aproximadamente.\nDesarrollo: Las plantas crecen rápidamente. Más o menos, crecerán 1 metro cúbico por cada 4 niveles. Este crecimiento no suele ser sostenible, y esas partes nuevas de la planta se desharán en unas horas. "
+    },
+    {
+      "Nombre": "Curación animal",
+      "Coste": 3,
+      "Requisitos": ["Esencia animal"],
+      "Palabras": "Curare hoc animali",
+      "Gestos": "Los dedos índice y pulgar de una mano se juntan, y la palma de la otra mano golpea la unión.",
+      "Efectos": "Combinado con un efecto instantáneo, cura 1d6 de vida por nivel.\nCombinado con un efecto de área, cura 1d3 de vida por nivel.  \nCuración constante: 1 de vida por cada 2 niveles. \nSolo funciona con animales. \nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Curación astral",
+      "Coste": 3,
+      "Requisitos": ["Esencia astral"],
+      "Palabras": "Esse curare ad hoc magicis",
+      "Gestos": "Los dedos índice y pulgar de una mano se juntan, y la palma de la otra mano golpea la unión.",
+      "Efectos": "Combinado con un efecto instantáneo, cura 1d6 de vida por nivel.\nCombinado con un efecto de área, cura 1d3 de vida por nivel. \nCuración constante: 1 de vida por cada 2 niveles. \nFunciona con todo tipo de objetivos.  \nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Curación vegetal",
+      "Coste": 3,
+      "Requisitos": ["Esencia vegetal"],
+      "Palabras": "Quia huius plantae curarent",
+      "Gestos": "Los dedos índice y pulgar de una mano se juntan, y la palma de la otra mano golpea la unión.",
+      "Efectos": "Combinado con un efecto instantáneo, cura 1d6 de vida por nivel.\nCombinado con un efecto de área, cura 1d3 de vida por nivel. \nCuración constante: 1 de vida por cada 2 niveles. \nSolo funciona con plantas. \nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Custodia",
+      "Coste": 3,
+      "Requisitos": [],
+      "Palabras": "Custodit corpus",
+      "Gestos": "El brazo derecho cruza el pecho hasta el hombro y el brazo izquierdo se pega al cuerpo",
+      "Efectos": "Invoca un escudo protector que protege al personaje durante un turno. Se puede usar en dos modos: Direccional u omnidireccional. El escudo otorga resistencia al daño frente a ataques desde ciertas direcciones. La resistencia al daño es igual al doble del nivel si es direccional, y al nivel si es omnidireccional.\nCuando afecta a un área, los efectos son la mitad.\nDebe combinarse con una esencia válida (aquellas que tengan entre sus efectos “custodia”, que determinan el comportamiento de la custodia)."
+    },
+    {
+      "Nombre": "Daño instantáneo",
+      "Coste": 3,
+      "Requisitos": [],
+      "Palabras": "Nunc damnum",
+      "Gestos": "Cerrar la mano",
+      "Efectos": "Alcance 20m.\nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Desgarro de dragones",
+      "Coste": 6,
+      "Requisitos": ["Esencia animal superior"],
+      "Palabras": "Draco confractibus corpus tuum",
+      "Gestos": "Colocar las manos sobre el pecho y separarlas como si se desgarrara",
+      "Efectos": "Solamente afecta a los dragones. \nTSFOR 10+nivel. Si falla, sufrirá 1 de daño de energía por nivel, no podrá volar durante 1 minuto y perderá dos acciones de su próximo turno. "
+    },
+    {
+      "Nombre": "Detectar",
+      "Coste": 3,
+      "Requisitos": [],
+      "Palabras": "Visum",
+      "Gestos": "Ponerse el pulgar en la frente.",
+      "Efectos": "Combinado con una esencia, detecta la presencia de todo lo ligado a ella en un radio de 10m por nivel. \nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Detectar en el tiempo",
+      "Coste": 6,
+      "Requisitos": ["Detectar"],
+      "Palabras": "Visum inter tempore occultum",
+      "Gestos": "Ponerse el pulgar en la frente y la otra mano sobre el estómago",
+      "Efectos": "Combinado con una esencia, muestra la presencia de esa esencia en un radio de 1 metro por nivel.  \nMientras se usa, el mago verá pasar las muestras de esencia del pasado en la zona, retrocediendo a un ritmo de 1 minuto en la realidad equivalente a 1 hora en el pasado. Es decir, todo va a cámara rápida, 60 veces más rápido de lo normal… Se puede ir más lento, pero claro, entonces cuesta más tiempo todo…\nSe puede retroceder tantas horas como el nivel. "
+    },
+    {
+      "Nombre": "Detectar manipulación mental",
+      "Coste": 6,
+      "Requisitos": ["Esencia animal superior"],
+      "Palabras": "Detect mentis flexibus",
+      "Gestos": "Señalar la sien con el índice mientras se hacen círculos con el índice",
+      "Efectos": "Detecta si una mente ha sido manipulada."
+    },
+    {
+      "Nombre": "Disfraz",
+      "Coste": 3,
+      "Requisitos": ["Esencia de sombras"],
+      "Palabras": "Sum alter contrarium",
+      "Gestos": "Poner las manos extendidas ante la cara con las palmas hacia el rostro",
+      "Efectos": "Cambia el aspecto exterior del personaje, dándole un disfraz bastante decente (dificultad 20+nivel para descubrirlo). El disfraz creado no es de verdad, así que un disfraz de soldado no incluye un arma de verdad… Es de pega. \nSi no se combina para que dure, no se notará."
+    },
+    {
+      "Nombre": "Disfraz superior",
+      "Coste": 6,
+      "Requisitos": ["Esencia de sombras superior"],
+      "Palabras": "Sum alter contrarium et volo reditum primum",
+      "Gestos": "Poner las manos extendidas ante la cara con las palmas hacia el rostro y luego girarlas",
+      "Efectos": "Cambia el aspecto exterior del personaje. Es capaz de cambiar la estructura facial, la forma general del cuerpo (a otro cuerpo no muy diferente tampoco) además de añadir todo tipo de ropa y cambiar la voz incluso. Es imposible de reconocer a la persona que hizo el hechizo usando los sentidos simplemente. El disfraz creado no es de verdad, así que un disfraz de soldado no incluye un arma de verdad… Es de pega. \nSi no se combina para que dure, no se notará.\nLa duración es 10 veces la habitual. "
+    },
+    {
+      "Nombre": "Disipar magia",
+      "Coste": 3,
+      "Requisitos": ["Esencia mágica"],
+      "Palabras": "Magicae evanescit",
+      "Gestos": "Coger aire",
+      "Efectos": "15+nivel para intentar superar la dificultad de otro hechizo. \nContra hechizos de magos eruditos tiene -5. \nSi se usa en área, tiene -5.\nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Dolor",
+      "Coste": 3,
+      "Requisitos": ["Esencia astral"],
+      "Palabras": "Ego constritavit /dolor auten infirmat / et vincere dolorem",
+      "Gestos": "Apuntarse con los pulgares el pecho",
+      "Efectos": "El objetivo hace TSFOR 10+nivel para no perder una acción de su próximo turno por el dolor. \nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Dotar de consciencia",
+      "Coste": 9,
+      "Requisitos": ["Permanencia maestra","Esencia animal maestra", "Esencia astral maestra", "Esencia nigromántica maestra"],
+      "Palabras": "Creavi a vita quin sit deus manibus meis",
+      "Gestos": "Manos en las sienes y luego se mueven hasta la boca",
+      "Efectos": "De forma permanente, aumenta los atributos mentales del objetivo a 8, en caso de que no los tuviera o fueran menores a 8. \nTarda en usarse una semana de calma y rituales"
+    },
+    {
+      "Nombre": "Intercambio de esencia",
+      "Coste": 9,
+      "Requisitos": ["Esencia mágica maestra"],
+      "Palabras": "FALTA",
+      "Gestos": "FALTA",
+      "Efectos": "Permite cambiar un tipo de esencia a otro tipo diferente."
+    },
+    {
+      "Nombre": "Elaborar",
+      "Coste": 3,
+      "Requisitos": ["Esencia mágica"],
+      "Palabras": "Elaborare cum mágica / mentem facere / opus manuum saurus",
+      "Gestos": "Gesto de coser en el aire",
+      "Efectos": "Cuesta en lanzarse algo de tiempo… Según lo largo o detallado que sea… \nFunciona durante 1 hora por nivel.\nRealiza tareas no excesivamente complejas, como limpiar, coser, cortar… La destreza al realizarlo también depende de las propias destrezas y conocimientos del mago. \nSe le debe dar materiales.\nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Eliminar condición animal",
+      "Coste": 3,
+      "Requisitos": ["Esencia animal"],
+      "Palabras": "Nam hoc animal sanum",
+      "Gestos": "Los dedos índice y pulgar de una mano se juntan, y la palma de la otra mano golpea la unión.",
+      "Efectos": "Combinado con un efecto instantáneo, elimina una condición de dificultad 10+nivel o menos. \nCombinado con un efecto de área, funciona igual, pero es menos potente y tiene -5. \nSolo funciona con animales.\nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Eliminar condición astral",
+      "Coste": 3,
+      "Requisitos": ["Esencia astral"],
+      "Palabras": "Hoc magicis valere",
+      "Gestos": "Los dedos índice y pulgar de una mano se juntan, y la palma de la otra mano golpea la unión.",
+      "Efectos": "Combinado con un efecto instantáneo, elimina una condición de dificultad 10+nivel o menos. \nCombinado con un efecto de área, funciona igual, pero es menos potente y tiene -5. \nFunciona con todo tipo de objetivos.  \nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Eliminar condición vegetal",
+      "Coste": 3,
+      "Requisitos": ["Esencia vegetal"],
+      "Palabras": "Sanandum herbae",
+      "Gestos": "Los dedos índice y pulgar de una mano se juntan, y la palma de la otra mano golpea la unión.",
+      "Efectos": "Combinado con un efecto instantáneo, elimina una condición de dificultad 10+nivel o menos. \nCombinado con un efecto de área, funciona igual, pero es menos potente y tiene -5. \nSolo funciona con plantas.\nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Envoltura del alma",
+      "Coste": 6,
+      "Requisitos": ["Esencia astral superior"],
+      "Palabras": "Anima folliculus protege a periculo /spem redintegrat in anima",
+      "Gestos": "Las manos se apoyan sobre los hombros propios y luego se proyectan hacia delante",
+      "Efectos": "Dura 1 minuto por nivel. Debe designarse a un objetivo voluntario. Ese objetivo será el beneficiado. También deberá elegirse otro objetivo voluntario, que será el mártir. Mientras dure el hechizo, todos los efectos físicos o mágicos que afecten al beneficiado irán a parar al mártir. Solamente se redirigen los efectos negativos, no los positivos. \nCada beneficiado solamente puede tener un mártir, y cada mártir solamente puede tener un beneficiado. \nHay una versión maestra (coste 9)"
+    },
+    {
+      "Nombre": "Esconder aura mágica",
+      "Coste": 3,
+      "Requisitos": ["Esencia de sombras"],
+      "Palabras": "Abscondit magicae mágica /avertas ocultos a me / servo meo magicis",
+      "Gestos": "Taparse los ojos al decir las palabras",
+      "Efectos": "Oculta el aura mágica de los objetos mágicos y hechizos. \nLos hechizos superiores o maestros son demasiado poderosos como para ocultarlos. \nSi no se combina para que dure, no se notará.\nLa duración es 10 veces la habitual. \nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Escritura ilusoria",
+      "Coste": 3,
+      "Requisitos": ["Esencia de sombras"],
+      "Palabras": "Scribens falsum /et verba mendacia / a falsum in mundo",
+      "Gestos": "Hacer gesto de cerrar un libro con las manos",
+      "Efectos": "Afecta a texto escrito. Al realizar el hechizo, hay que designar quienes pueden leerlo sin problemas. Si alguien que no está en ese lista intenta leerlo le parecerá que está escrito en alguna lengua extraña e indescifrable (es una ilusión). TSVOL 10+nivel para dejar de creerse la ilusión.\nSi no se combina para que dure, no se notará.\nLa duración es 10 veces la habitual.\nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Esencia animal",
+      "Coste": 5,
+      "Requisitos": [],
+      "Palabras": "Animal cibum / anima mea turbata est / silvestre et cibis",
+      "Gestos": "Poner una mano sobre el corazón",
+      "Efectos": "Hay tres versiones mejoradas: La superior (coste 10), la maestra (coste 15) y la épica (coste 20)"
+    },
+    {
+      "Nombre": "Esencia astral",
+      "Coste": 5,
+      "Requisitos": [],
+      "Palabras": "Entia ab alio mundo / stellae da mihi /  potestatem superbam",
+      "Gestos": "Poner las manos en las sienes y mover las palmas como si fueran orejitas de conejo",
+      "Efectos": "Instantáneo: Causa 1d6 de daño por nivel. Si no tira para impactar causa un cuarto del daño y el dado de crítico funciona de otra manera: Con 1, no hace nada especial, con 2 a 4 causa un crítico, y con un 5 o 6 causa un crítico a elegir.  \nDaño de área: Causa 1d3 de daño por nivel. Permite hacer una TSREF 10+nivel para reducir a la mitad el daño. \nDaño constante: Causa 1 de daño por cada 2 niveles.\nEstructuras: Usado para estructuras mágicas, tiene 10 de vida por nivel por metro, con una RD igual al nivel. \nCustodia: Nada raro\nEl daño puede ser mágico o ser de energía (en cuyo caso, causa la mitad de daño). \nHay tres versiones mejoradas: La superior (coste 10), la maestra (coste 15) y la épica (coste 20)"
+    },
+    {
+      "Nombre": "Esencia de agua",
+      "Coste": 5,
+      "Requisitos": [],
+      "Palabras": "Frigus aqua / aquam in venas / aquam in anima mea\n",
+      "Gestos": "Pasar la mano de derecha a izquierda, en horizontal",
+      "Efectos": "Permite crear pequeñas cantidades de agua. \nInstantáneo: Causa 1d6 de daño por nivel y TSFOR 10+nivel para no perder una acción el próximo turno. Si no tira para impactar causa un cuarto del daño, tira TSFOR 5+nivel para no perder una acción del próximo turno y el dado de crítico funciona de otra manera: Con 1, no hace nada especial, con 2 a 4 causa un crítico, y con un 5 o 6 causa un crítico a elegir.  \nDaño de área: Causa 1d3 de daño por nivel. Permite hacer una TSFOR 5+mitad de nivel para no perder una acción del próximo turno. \nDaño constante: Causa 1 de daño por cada 2 niveles. La víctima tira TSFOR 5+mitad de niveles para no perder una acción de su próximo turno. \nCustodia: Nada raro.\nEstructuras: Usado para estructuras mágicas, tiene 10 de vida por nivel por metro. \nHay tres versiones mejoradas: La superior (coste 10), la maestra (coste 15) y la épica (coste 20)"
+    },
+    {
+      "Nombre": "Esencia de aire",
+      "Coste": 5,
+      "Requisitos": [],
+      "Palabras": "Ventus portaverit / at fuga altitudinum / et ego quasi avis",
+      "Gestos": "Coger aire con la boca",
+      "Efectos": "Permite crear pequeñas corrientes de aire. \nInstantáneo: Causa 1d6 de daño por nivel. Si no tira para impactar causa un cuarto del daño y el dado de crítico funciona de otra manera: Con 1, no hace nada especial, con 2 a 4 causa un crítico, y con un 5 o 6 causa un crítico a elegir.  \nDaño de área: Causa 1d3 de daño por nivel. Permite hacer una TSREF 10+nivel para reducir a la mitad el daño. \nDaño constante: Causa 1 de daño por cada 2 niveles.\nCustodia: Solo protege de aire. Además, en la dirección de la custodia causa “daño constante”.\nHay tres versiones mejoradas: La superior (coste 10), la maestra (coste 15) y la épica (coste 20)"
+    },
+    {
+      "Nombre": "Esencia de fuego",
+      "Coste": 5,
+      "Requisitos": [],
+      "Palabras": "Incendens ignis / alios amplectaris mundi / devorabit anima vestra",
+      "Gestos": "Chasquear los dedos",
+      "Efectos": "Permite calentar y encender pequeños fuegos. \nInstantáneo: Causa 1d6 de daño por nivel. Si no tira para impactar causa un cuarto del daño y el dado de crítico funciona de otra manera: Con 1, no hace nada especial, con 2 a 4 causa un crítico, y con un 5 o 6 causa un crítico a elegir.  \nDaño de área: Causa 1d3 de daño por nivel. Permite hacer una TSREF 10+nivel para reducir a la mitad el daño. \nDaño constante: Causa 1 de daño por cada 2 niveles.\nCustodia: Solo protege de frío y fuego. Además, en la dirección de la custodia causa “daño constante”.\nHay tres versiones mejoradas: La superior (coste 10), la maestra (coste 15) y la épica (coste 20)"
+    },
+    {
+      "Nombre": "Esencia de luz",
+      "Coste": 5,
+      "Requisitos": [],
+      "Palabras": "Lux splendens / illuminavit autem vitam / et vincere tenebris",
+      "Gestos": "Dar una palmada",
+      "Efectos": "Permite crear pequeñas esferas de luz temporales.\nInstantáneo: Causa 1d3 de daño de fuego por nivel. Si no tira para impactar causa un cuarto del daño y el dado de crítico funciona de otra manera: Con 1, no hace nada especial, con 2 a 4 causa un crítico, y con un 5 o 6 causa un crítico a elegir.  \nDaño de área: Permite hacer una TSREF 5+mitad de nivel para no quedar cegado el próximo turno. \nCustodia: Solo protege de luz y oscuridad. \nHay tres versiones mejoradas: La superior (coste 10), la maestra (coste 15) y la épica (coste 20)"
+    },
+    {
+      "Nombre": "Esencia de magma",
+      "Coste": 3,
+      "Requisitos": ["Esencia de fuego", "Esencia de tierra"],
+      "Palabras": "Aqua ardore",
+      "Gestos": "Extender las palmas de las manos mirando  hacia arriba",
+      "Efectos": "Instantáneo: Causa 1d6 de daño de tierra y fuego por nivel. Si no tira para impactar causa un cuarto del daño, el daño es solo de fuego, y el dado de crítico funciona de otra manera: Con 1, no hace nada especial, con 2 a 4 causa un crítico, y con un 5 o 6 causa un crítico a elegir.  \nDaño de área: Causa 1d3 de daño de tierra y fuego por nivel. Permite hacer una tirada de TSREF 10+nivel para reducir a la mitad el daño.\nEstructuras: Usado para estructuras mágicas, tiene 10 de vida por nivel por metro, y causa daño constante de fuego.\nDaño constante: Causa 1 de daño de fuego y aire por cada 3 niveles.\nBarreras temporales: 2 de vida por nivel.\nHay tres versiones mejoradas: La superior (coste 10), la maestra (coste 15) y la épica (coste 20)"
+    },
+    {
+      "Nombre": "Esencia de sombras",
+      "Coste": 5,
+      "Requisitos": [],
+      "Palabras": "Tenebris profunda / oculi mei sunt fontes / praevalebat lux",
+      "Gestos": "Alzar las manos y cerrar ambos puños",
+      "Efectos": "Permite oscurecer una zona temporalmente. \nInstantáneo: Causa 1d3 de daño de frío por nivel. Si no tira para impactar causa un cuarto del daño y el dado de crítico funciona de otra manera: Con 1, no hace nada especial, con 2 a 4 causa un crítico, y con un 5 o 6 causa un crítico a elegir.  \nDaño de área: Causa 1d3 de daño por frío por cada 2 niveles. Permite hacer una TSREF 10+nivel para reducir a la mitad el daño. \nDaño constante: Causa 1 de daño por frío por cada 4 niveles. \nCustodia: Solo protege de luz y oscuridad.\nHay tres versiones mejoradas: La superior (coste 10), la maestra (coste 15) y la épica (coste 20)"
+    },
+    {
+      "Nombre": "Esencia de tierra",
+      "Coste": 5,
+      "Requisitos": [],
+      "Palabras": "Esentia terram / ego perseverat et fortis / quod petram sum",
+      "Gestos": "Señalar el suelo y luego cerrar el puño",
+      "Efectos": "Permite crear pequeñas cantidades de minerales, así como transmutar unos en otros. En ambos casos, los efectos son temporales. \nInstantáneo: Causa 1d6 de daño por nivel. Permite hacer una tirada de equilibrio 10+nivel para no ser derribado. No se puede formar parte de un hechizo que no tira para impactar. \nDaño de área: Causa 1d3 de daño por nivel. Permite hacer una tirada de equilibrio 5+mitad de nivel para no ser derribado.\nEstructuras: Usado para estructuras mágicas, tiene 10 de vida por nivel por metro, con RD igual al nivel.\nBarreras temporales: 2 de vida por nivel.\nHay tres versiones mejoradas: La superior (coste 10), la maestra (coste 15) y la épica (coste 20)"
+    },
+    {
+      "Nombre": "Esencia mágica",
+      "Coste": 5,
+      "Requisitos": [],
+      "Palabras": "Magicae essentia / domino magicis excursus / et deorum in oculis vestris",
+      "Gestos": "Colocar las manos sobre las sienes",
+      "Efectos": "Instantáneo: Causa 1d6 de daño por nivel. Si no tira para impactar causa un cuarto del daño y el dado de crítico funciona de otra manera: Con 1, no hace nada especial, con 2 a 4 causa un crítico, y con un 5 o 6 causa un crítico a elegir.  \nDaño de área: Causa 1d3 de daño por nivel. Permite hacer una TSREF 10+nivel para reducir a la mitad el daño. \nDaño constante: Causa 1 de daño por nivel por cada 2 niveles.\nEstructuras: Usado para estructuras mágicas, tiene 10 de vida por nivel por metro. \nCustodia: Nada raro\nHay tres versiones mejoradas: La superior (coste 10), la maestra (coste 20) y la épica (coste 20)"
+    },
+    {
+      "Nombre": "Esencia nigromántica",
+      "Coste": 5,
+      "Requisitos": [],
+      "Palabras": "Mortem esentiatem / suscitat  mortuos /  consolamini mortuis eternae",
+      "Gestos": "Cruzar las manos en recto bajo el pecho",
+      "Efectos": "Instantáneo: Causa 1d6 de daño por nivel. Si no tira para impactar causa un cuarto del daño y el dado de crítico funciona de otra manera: Con 1, no hace nada especial, con 2 a 4 causa un crítico, y con un 5 o 6 causa un crítico a elegir.  \nDaño de área: Causa 1d3 de daño por nivel. Permite hacer una TSREF 10+nivel para reducir a la mitad el daño. \nDaño constante: Causa 1 de daño por nivel por cada 2 niveles.\nCustodia: Solo protege de daño nigromántico o energía negativa. Además, en la dirección de la custodia causa “daño constante”.\nEl daño puede ser nigromántico o de energía negativa, a elegir. \nHay tres versiones mejoradas: La superior (coste 10), la maestra (coste 15) y la épica (coste 20)"
+    },
+    {
+      "Nombre": "Esencia vegetal",
+      "Coste": 5,
+      "Requisitos": [],
+      "Palabras": "Ligno essentia / brachiis meis sunt ligna / et fortis ipse quercus",
+      "Gestos": "Señalar el suelo con una mano",
+      "Efectos": "Estructuras: Usado para estructuras mágicas, tiene 10 de vida por nivel por metro.\nHay tres versiones mejoradas: La superior (coste 10), la maestra (coste 15) y la épica (coste 20)"
+    },
+    {
+      "Nombre": "Espejo",
+      "Coste": 9,
+      "Requisitos": ["Esencia mágica maestra"],
+      "Palabras": "Reputans imaginem meam ab orbis cum potestatem",
+      "Gestos": "Poner las manos ante el rostro: una extendida con la palma hacia afuera y la otra con la palma hacia dentro",
+      "Efectos": "Solamente tiene sentido usarlo como interrupción al turno contrario, habiéndote guardado acciones. \nAl usarlo, tiras 1d20+nivel contra dificultad 10+nivel del contrario. Si le superas, el hechizo que ha lanzado el contrario le vuelve a sí mismo.\nUsarlo son 2 acciones.   "
+    },
+    {
+      "Nombre": "Espiar",
+      "Coste": 6,
+      "Requisitos": ["Adivinación"],
+      "Palabras": "Vissum absconditum terrarum circuitus / locus inmicis meis",
+      "Gestos": "Colocar los dedos sobre los ojos como si fueran gafas",
+      "Efectos": "Debe combinarse con alguna esencia que transporte la adivinación.\nEl alcance máximo es 1km por nivel. \nEspía a un objetivo, viendo lo que hace y lo que tiene adyacente. \nHay una versión maestra (coste 9)"
+    },
+    {
+      "Nombre": "Fuego demoníaco de ardor eterno",
+      "Coste": 12,
+      "Requisitos": ["Esencia astral maestra", "Esencia de fuego maestra"],
+      "Palabras": "Ignis sit diabolica et omne mutabile aeternum, potestas eius malum et fortis, ego adepto victoriam in finem",
+      "Gestos": "Taparse la boca mientras se dicen las palabras y por último los ojos",
+      "Efectos": "Convierte un volumen de fuego normal de 1 metro cúbico por nivel en fuego demoníaco especial. Este fuego tiene las siguientes características: \nEl fuego causa daño de energía, haciendo arder incluso el agua u otras cosas no inflamables. No necesita oxígeno para arder ni nada similar. \nEste efecto dura 1 minuto por nivel. \nMantener el fuego demoníaco requiere una acción de cada turno."
+    },
+    {
+      "Nombre": "Glifo",
+      "Coste": 3,
+      "Requisitos": ["Esencia mágica"],
+      "Palabras": "Magicae firmamentum /et naves verba mea / et durum libero a mundo",
+      "Gestos": "Dar una palmada sobre el lugar donde se coloca el glifo",
+      "Efectos": "Se lanza sobre un área de hasta 1 metro cuadrado, o sobre un objeto. \nUsarlo cuesta 10 minutos, más lo que cuesten el resto de componentes. \nSe le pueden poner condiciones de activación. Cuando se cumplen, el glifo lanzará el hechizo que contenga.\nEl glifo puede mantenerse 1 hora por nivel. \nEl que ha realizado el glifo siente en todo momento si se ha activado el glifo o no. \nComo máximo se pueden tener tantos glifoscomo un tercio del nivel.\nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Hablar con los animales",
+      "Coste": 3,
+      "Requisitos": ["Esencia animal"],
+      "Palabras": "Animalis lingua",
+      "Gestos": "Colocar los dedos índice y corazón sobre los labios",
+      "Efectos": "Permite comunicarse con pensamientos y sentimientos simples. \nSe debe combinar con algún componente para que dure, como por ejemplo, “imbuir magia”."
+    },
+    {
+      "Nombre": "Ilusión",
+      "Coste": 3,
+      "Requisitos": ["Esencia de sombras"],
+      "Palabras": "Universa mendacii /eorum confumdamus magicis / mentiri falsum actiones",
+      "Gestos": "Colocarse los dedos sobre los ojos como si fueran un antifaz",
+      "Efectos": "Crea una ilusión en un lugar que afecta a todos (no hay que designar objetivos: afecta a todos siempre, excluyendo al mago). TSVOL 10+nivel para dejar de creerse la ilusión. \nAlcance 20m\nMantener una ilusión cuesta una acción normal de cada turno. \nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Imbuir de poder",
+      "Coste": 3,
+      "Requisitos": ["Esencia astral"],
+      "Palabras": "NO",
+      "Gestos": "NO",
+      "Efectos": "Funciona de forma idéntica al rasgo “imbuir de poder” de la clase “astral”.   \nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15) "
+    },
+    {
+      "Nombre": "Ligadura de almas",
+      "Coste": 3,
+      "Requisitos": ["Imbuir de poder"],
+      "Palabras": "NO",
+      "Gestos": "NO",
+      "Efectos": "Es un componente especial, que se debe usar conjuntamente con un componente que cree un astral (como puede ser “imbuir de poder” o “crear diablillo”).\nAl crear al astral, el personaje tarda el doble de tiempo, se cansa el doble y recibe el doble de daño.\nEl astral creado obedecerá al creador, y para resistirse deberá superar una TSVOL 15+nivel del creador en el momento que se lanzó el hechizo.\nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Imbuir magia",
+      "Coste": 3,
+      "Requisitos": ["Permanencia"],
+      "Palabras": "Permanentia",
+      "Gestos": "Colocar las manos como si fueran un cuenco",
+      "Efectos": "Un objetivo es afectado por la magia durante 10 minutos por nivel. \nSin límite de potencia por nivel. \nLos efectos creados así, si se superponen unos a otros, lo habitual es que interaccionen mal o que se disipen.   \nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Indetectabilidad",
+      "Coste": 3,
+      "Requisitos": ["Esencia de sombras"],
+      "Palabras": "Igneretur sunt /ego abscondat in mágica / oculi in me et no videbitis",
+      "Gestos": "Pasar la mano por delante nuestro como si quisiéramos apartar niebla o una cortina",
+      "Efectos": "El objetivo suma su nivel para evitar ser detectado por medios mágicos. TSVOL 10+nivel para dejar de creerse la ilusión. \nSi no se combina para que dure, no se notará.\nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Infinito",
+      "Coste": 9,
+      "Requisitos": ["Esencia mágica maestra"],
+      "Palabras": "Magica factum est infinita et multiplicat in mundum ubi eg sum",
+      "Gestos": "Señalarse los ojos con los índices",
+      "Efectos": "Proporciona alcance global."
+    },
+    {
+      "Nombre": "Eternidad",
+      "Coste": 9,
+      "Requisitos": ["Esencia mágica maestra"],
+      "Palabras": "FALTA",
+      "Gestos": "FALTA",
+      "Efectos": "La duración del hechizo es ilimitada. \nSolamente se puede tener un componente de este tipo funcionando por cada 3 niveles."
+    },
+    {
+      "Nombre": "Jaula",
+      "Coste": 3,
+      "Requisitos": ["Permanencia"],
+      "Palabras": "Permanente carcere",
+      "Gestos": "Entrelazar las manos",
+      "Efectos": "Debe combinarse con una esencia. Según la esencia que sea, tendrá unas u otras propiedades. \nAlcance 20m, y el personaje puede alejarse hasta 100m.\nMantenerlo es una acción normal.\nNo se puede colocar si hay obstáculos que le impiden cerrarse.  \nTamaño: Tendrá un metro cúbico por nivel. \nForma: Debe tener formas sencillas: Puede ser un rectángulo, una esfera, un cilindro…"
+    },
+    {
+      "Nombre": "Laberinto de la voluntad",
+      "Coste": 12,
+      "Requisitos": ["Esencia de sombras maestra", "Permanencia maestra"],
+      "Palabras": "FALTA",
+      "Gestos": "FALTA",
+      "Efectos": "Alcance 20m\nNo se puede usar sobre un objetivo sin conciencia de sí mismo.\nCrea una ilusión, que solamente afecta a un objetivo. El objetivo debe hacer una TSVOL 10+nivel para evitar creérsela.\nLa víctima estará en coma mientras dure la ilusión, a solas consigo misma, sus pensamientos y recuerdos.  \nLa ilusión no tiene límite de duración, sino que se termina cuando el objetivo llegue a estar en paz total consigo mismo (lo que puede que no ocurra nunca…o que ocurra al instante… el narrador tiene la última palabra). Si se hiciese que el objetivo dejase de tener conciencia de sí mismo, saldría del coma, pero en el instante en el que vuelva a tener conciencia de sí mismo, volvería a caer. \nLa dificultad para eliminar este efecto con magia (disipando la magia o eliminando la maldición que se considera) es 10 puntos más alta de lo normal. "
+    },
+    {
+      "Nombre": "Localizar",
+      "Coste": 6,
+      "Requisitos": ["Adivinación"],
+      "Palabras": "Invenient quid cupis invenire\n",
+      "Gestos": "Hay que ponerse los dedos en los ojos como si fueran gafas.",
+      "Efectos": "Debe combinarse con alguna esencia que transporte la adivinación.\nEl alcance máximo es 1km por nivel. \nBusca al objetivo especificado, y si lo encuentra, indica al personaje en qué dirección está y a qué distancia. "
+    },
+    {
+      "Nombre": "Lluvia",
+      "Coste": 3,
+      "Requisitos": [],
+      "Palabras": "Pluvia /latius et fortus / ad me onmes qui in circuitu",
+      "Gestos": "Levantar los brazos al cielo, y luego dejarlos caer mientras se mueven los dedos de las manos",
+      "Efectos": "Alcance de 5m por nivel, con un radio igual al nivel.\n Hay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Magia latente",
+      "Coste": 6,
+      "Requisitos": ["Esencia mágica superior"],
+      "Palabras": "Magicae latens / manet in ventum",
+      "Gestos": "Unir los índices de las manos",
+      "Efectos": "Retrasa los efectos del hechizo unos turnos. La cantidad máxima de turnos es igual a un cuarto del nivel.\nHay una versión maestra (coste 9)"
+    },
+    {
+      "Nombre": "Mapeador",
+      "Coste": 6,
+      "Requisitos": ["Adivinación"],
+      "Palabras": "Trahit mundi",
+      "Gestos": "Hacer en el aire el gesto de escritura",
+      "Efectos": "Combinado con una esencia, revela la posición de lo que está ligado a esa esencia, representándolo en un mapa tridimensional.\nAfecta a todo en un radio de 1km por nivel. "
+    },
+    {
+      "Nombre": "Metamorfosis animal",
+      "Coste": 9,
+      "Requisitos": ["Permanencia maestra", "Regeneración animal maestra"],
+      "Palabras": "Essentia hominis muto animali et manet in inferno anima mea",
+      "Gestos": "Colocar las manos en forma de cuenco, alzarlas al cielo y luego separarlas de forma amplia",
+      "Efectos": "El proceso dura al menos 10 minutos de calma y rituales. \nSolamente se puede usar sobre animales.  \nEl objetivo debe llevar la cuenta de la cantidad de veces que se le ha aplicado metamorfosis, porque influye en la dificultad de la TS. Por cada vez que se aplique, la dificultad de la TS aumentará en 3. \nAl usarse, el personaje puede redistribuir X puntos de los atributos como desee. La TS (FOR o VOL) para no morir es de 2X. X es el nivel del personaje.\nEn el proceso es posible cambiar la forma física. Cuánto depende del narrador. "
+    },
+    {
+      "Nombre": "Metamorfosis astral",
+      "Coste": 6,
+      "Requisitos": ["Permanencia superior", "Regeneración astral superior"],
+      "Palabras": "Falta",
+      "Gestos": "Falta",
+      "Efectos": "El proceso dura al menos 10 minutos de calma y rituales. \nSolamente se puede usar sobre astrales que usen su propio poder interno. \nEl objetivo debe llevar la cuenta de la cantidad de veces que se le ha aplicado metamorfosis, porque influye en la dificultad de la TS. Por cada vez que se aplique, la dificultad de la TS aumentará en 3. \nAl usarse, el personaje puede redistribuir X puntos de los atributos como desee. La TS (FOR o VOL) para no morir es de 2X. X es el nivel del personaje.\nEn el proceso es posible cambiar la forma física. Cuánto depende del narrador. "
+    },
+    {
+      "Nombre": "Metamorfosis vegetal",
+      "Coste": 9,
+      "Requisitos": ["Permanencia maestra", "Regeneración vegetal maestra"],
+      "Palabras": "Falta",
+      "Gestos": "Falta",
+      "Efectos": "El proceso dura al menos 10 minutos de calma y rituales. \nSolamente se puede usar sobre vegetales.  \nEl objetivo debe llevar la cuenta de la cantidad de veces que se le ha aplicado metamorfosis, porque influye en la dificultad de la TS. Por cada vez que se aplique, la dificultad de la TS aumentará en 3. \nAl usarse, el personaje puede redistribuir X puntos de los atributos como desee. La TS (FOR o VOL) para no morir es de 2X. X es el nivel del personaje.\nEn el proceso es posible cambiar la forma física. Cuánto depende del narrador. "
+    },
+    {
+      "Nombre": "Muro",
+      "Coste": 3,
+      "Requisitos": ["Permanencia"],
+      "Palabras": "Obice",
+      "Gestos": "Las manos comienzan unidas palma con palma y luego se separan abriendo los brazos",
+      "Efectos": "Debe combinarse con una esencia. Según la esencia que sea, tendrá unas u otras propiedades. \nAlcance 20m, y el personaje puede alejarse hasta 100m.\nMantenerlo es una acción normal.\nNo se puede colocar el muro si hay obstáculos en el camino: Debe ser una zona despejada. \nTamaño: Tendrá un metro cuadrado por punto de habilidad. \nForma: Debe tener formas sencillas: Puede ser un rectángulo, una esfera, un cilindro…"
+    },
+    {
+      "Nombre": "Nova",
+      "Coste": 3,
+      "Requisitos": [],
+      "Palabras": "Nova magicae",
+      "Gestos": "Se levantan los dos brazos hacia arriba",
+      "Efectos": "Afecta a todo lo que esté a 2m por nivel. \nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Ocultación",
+      "Coste": 3,
+      "Requisitos": ["Esencia de sombras"],
+      "Palabras": "",
+      "Gestos": "",
+      "Efectos": "El objetivo suma su nivel a esconderse y sigilo. \nSi no se combina para que dure, no se notará."
+    },
+    {
+      "Nombre": "Parálisis neural",
+      "Coste": 6,
+      "Requisitos": ["Esencia animal superior"],
+      "Palabras": "Mentis opera mea torpescit est",
+      "Gestos": "Mover los brazos rígidos y rectos desde el cuerpo hacia delante",
+      "Efectos": "TSFOR 5+mitad de nivel para no quedar paralizado completamente durante tantos minutos como el nivel. Solo afecta a animales. "
+    },
+    {
+      "Nombre": "Permanencia",
+      "Coste": 3,
+      "Requisitos": [],
+      "Palabras": "",
+      "Gestos": "",
+      "Efectos": "NO COMBINABLE\nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Potenciación astral",
+      "Coste": 3,
+      "Requisitos": ["Esencia astral"],
+      "Palabras": "FALTA",
+      "Gestos": "FALTA",
+      "Efectos": "Debe combinarse para que dure.\nSolamente se puede usar sobre astrales. No se acumula. \nHay 4 potencias a elegir:\nBaja: Da una bonificación igual a la mitad del nivel a uno de los atributos.\nMedia: Da una bonificación igual al nivel a repartir entre 2 atributos. Consume un 25% del agotamiento mágico del mago.\nAlta: Da una bonificación igual al doble del nivel a repartir entre 3 atributos. Consume un 50% del agotamiento mágico del mago.\nTotal: Da una bonificación igual al cuádruple del nivel del personajea repartir entre los atributos como se quiera. Agota mágicamente.\nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Potenciación nigromántica",
+      "Coste": 3,
+      "Requisitos": ["Esencia nigromántica"],
+      "Palabras": "Mortem potens est /faltan 2 más",
+      "Gestos": "Una mano en el corazón y la otra señala al objetivo del hechizo",
+      "Efectos": "Debe combinarse para que dure.\nSolamente se puede usar sobre muertos vivientes. No se acumula. \nHay 4 potencias a elegir:\nBaja: Da una bonificación igual a la mitad del nivel a uno de los atributos.\nMedia: Da una bonificación igual al nivel a repartir entre 2 atributos. Consume un 25% del agotamiento mágico del mago.\nAlta: Da una bonificación igual al doble del nivel a repartir entre 3 atributos. Consume un 50% del agotamiento mágico del mago.\nTotal: Da una bonificación igual al cuádruple del nivel del personajea repartir entre los atributos como se quiera. Agota mágicamente.\nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Presa",
+      "Coste": 3,
+      "Requisitos": [],
+      "Palabras": "Venator",
+      "Gestos": "Gesto de quien atrapa a alguien, uniendo los brazos sobre el pecho",
+      "Efectos": "Alcance 20m. \nLos objetivos pueden hacer TSREF con dificultad 10+nivel para evitar ser atrapados. Para ver si lo sujeta, la víctima tira por presa contra dificultad 10+ nivel\nLos que estén sujetos pueden gastar acciones de su turno para tirar por presa y soltarse. \nMúltiples objetivos: Es posible afectar a más de un objetivo al mismo tiempo, pero la dificultad de las salvaciones bajará en 5 por cada objetivo más allá del primero. "
+    },
+    {
+      "Nombre": "Protección diaria",
+      "Coste": 3,
+      "Requisitos": ["Esencia mágica"],
+      "Palabras": "Falta",
+      "Gestos": "Falta",
+      "Efectos": "Al lanzarse sobre un objeto, le proporciona resistencia frente a los daños “normales”: Al frío, calor, a la humedad, los bichitos, rozaduras… \nDura 1 semana por nivel. \nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Proyectil",
+      "Coste": 3,
+      "Requisitos": [],
+      "Palabras": "Proiectum",
+      "Gestos": "Apuntar con el dedo índice",
+      "Efectos": "Proyectil de incremento 10m."
+    },
+    {
+      "Nombre": "Quemadura de maná",
+      "Coste": 6,
+      "Requisitos": ["Esencia mágica superior", "Disipar magia superior"],
+      "Palabras": "",
+      "Gestos": "",
+      "Efectos": "El objetivo hace TSFOR5+mitad de nivel. Si la falla,  sufrirá 1d3 de daño por nivel y además no podrá usar magia durante tantos minutos como el nivel. \nEn área, la TS tiene -3."
+    },
+    {
+      "Nombre": "Ralentizar",
+      "Coste": 9,
+      "Requisitos": ["Esencia mágica maestra"],
+      "Palabras": "",
+      "Gestos": "",
+      "Efectos": "El objetivo afectado pierde una acción de cada turno, a no ser que supere una TSVOL 10+nivel.\nAlcance 20m\nUsarlo cuesta 2 acciones. Mantenerlo requiere una acción cada turno. "
+    },
+    {
+      "Nombre": "Reanimación",
+      "Coste": 3,
+      "Requisitos": ["Esencia nigromántica"],
+      "Palabras": "Falta",
+      "Gestos": "Falta",
+      "Efectos": "Sigue las reglas del rasgo “aprendiz de reanimador” de la clase hechicero de la magia nigromántica.\nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Regeneración animal",
+      "Coste": 6,
+      "Requisitos": ["Esencia animal superior"],
+      "Palabras": "Falta",
+      "Gestos": "Falta",
+      "Efectos": "Combinado con un efecto instantáneo, cura 1d6 de vida por nivel.\nCombinado con un efecto de área, cura 1d3 de vida por nivel.  \nCuración constante: 1 de vida por cada 2 niveles. \nSolo funciona con animales. \nLa curación funciona 6 turnos después de que se lance el hechizo. A partir de ahí, funcionará cada 6 turnos tantas veces en total como el nivel.\nEs capaz de regenerar partes perdidas por completo.\nHay una versión mejorada de este componente, llamada “regeneración animal maestra”, de coste 9."
+    },
+    {
+      "Nombre": "Regeneración astral",
+      "Coste": 6,
+      "Requisitos": ["Esencia astral superior"],
+      "Palabras": "Reditere quod sum esse, materiam et essentia /in tuo corpis",
+      "Gestos": "Una mano en el corazón y la otra, dedos índice y corazón en la frente",
+      "Efectos": "Combinado con un efecto instantáneo, cura 1d3 de vida por nivel.\nCombinado con un efecto de área, cura 1 de vida por nivel. \nCuración constante: 1 de vida por cada 4 niveles. \nFunciona con todo tipo de objetivos. \nLa curación funciona 6 turnos después de que se lance el hechizo. A partir de ahí, funcionará cada 6 turnos tantas veces en total como el nivel.\nEs capaz de regenerar partes perdidas por completo. \nHay una versión mejorada de este componente, llamada “regeneración astral maestra”, de coste 9."
+    },
+    {
+      "Nombre": "Regeneración vegetal",
+      "Coste": 6,
+      "Requisitos": ["Esencia vegetal superior"],
+      "Palabras": "Falta",
+      "Gestos": "Falta",
+      "Efectos": "Combinado con un efecto instantáneo, cura 1d6 de vida por nivel.\nCombinado con un efecto de área, cura 1d3 de vida por nivel. \nCuración constante: 1 de vida por cada 2 niveles. \nSolo funciona con plantas. \nLa curación funciona 6 turnos después de que se lance el hechizo. A partir de ahí, funcionará cada 6 turnos tantas veces en total como el nivel.\nEs capaz de regenerar partes perdidas por completo.\nHay una versión mejorada de este componente, llamada “regeneración vegetal maestra”, de coste 9."
+    },
+    {
+      "Nombre": "Resurrección",
+      "Coste": 12,
+      "Requisitos": ["Esencia astral maestra"],
+      "Palabras": "Falta",
+      "Gestos": "Falta",
+      "Efectos": "Si un cuerpo está en buen estado y su alma hace 10 minutos que se fue, revive. \nTarda 1 minuto en usarse. "
+    },
+    {
+      "Nombre": "Resurrección de sangre",
+      "Coste": 12,
+      "Requisitos": ["Esencia nigromántica maestra"],
+      "Palabras": "Falta",
+      "Gestos": "Falta",
+      "Efectos": "Este hechizo sirve para revivir un vampiro a partir de sus cenizas o sangre. Este hechizo solamente tiene sentido usado en una runa o con hechizos de permanencia, porque debe funcionar continuamente durante largos periodos de tiempo para ser efectivo. \nHay que poner las cenizas o la sangre del vampiro a revivir en algún tipo de contenedor grande. Sobre esa zona debe ejecutarse este hechizo. A partir de entonces, si no se detiene el hechizo, podrá comenzar el proceso de resurrección.\nEl proceso de resurrección consiste en que el contenedor debe irse llenando de sangre de la raza del vampiro a revivir. La cantidad de sangre para revivir a un vampiro y el tiempo necesario dependen del vampiro: Se necesita hacer un día este proceso por cada año de antigüedad que tuviera el vampiro, y cada día el hechizo consumirá una cantidad igual al triple de la regeneración que tuviera el vampiro. \nSi se mete en el contenedor una cantidad de sangre superior a la  que consume el hechizo en un día, pues la sobrante ya se gastará para el siguiente día. \nCada día que no se proporcione la cantidad necesaria de sangre añade un día más a los días necesarios para terminar la resurrección."
+    },
+    {
+      "Nombre": "Robar el aliento",
+      "Coste": 3,
+      "Requisitos": ["Esencia de aire"],
+      "Palabras": "Falta",
+      "Gestos": "Falta",
+      "Efectos": "Permite eliminar el aire de una determinada zona u objetivo. \nNo hay TS ni nada posible contra este efecto,  pero el mago debe mantenerlo usando una acción de cada turno. \nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Telequinesia",
+      "Coste": 6,
+      "Requisitos": ["Esencia mágica superior"],
+      "Palabras": "Falta",
+      "Gestos": "Falta",
+      "Efectos": "Puede mover objetos, personas o partes de un todo. El máximo peso a levantar es de 50kg por nivel.\nSi van a mover objetos con velocidad y violencia, entonces pueden mover objetos 4 veces menos pesados (como tiene que ir más rápido, debe ser más ligero). \nSi se usa para golpear y causar daños, el daño será de 1d3 por nivel. "
+    },
+    {
+      "Nombre": "Teletransporte",
+      "Coste": 9,
+      "Requisitos": ["Infinito"],
+      "Palabras": "Falta",
+      "Gestos": "Falta",
+      "Efectos": "Usarlo son 2 acciones.   \nPermite teletransportarse a cualquier lugar. Si se pide ir a un lugar donde no se cabe, es posible que haya problemas…\nSe puede usar sobre otros también. Si se quiere resistir, es TSFOR o TSVOL 5+mitad de nivel."
+    },
+    {
+      "Nombre": "Videncia",
+      "Coste": 6,
+      "Requisitos": ["Adivinación"],
+      "Palabras": "Especulatore oculus visum\n",
+      "Gestos": "Taparse los ojos con las manos",
+      "Efectos": "Intenta ver el pasado, el futuro… \nNo tarda 2 acciones en lanzarse, sino que necesita más tiempo… Minutos, horas, quien sabe… "
+    },
+    {
+      "Nombre": "Visión",
+      "Coste": 3,
+      "Requisitos": ["Esencia de sombras", "Esencia de luz"],
+      "Palabras": "Falta",
+      "Gestos": "Falta",
+      "Efectos": "Permite al objetivo ver en situaciones donde la luz no es adecuada, tanto si es porque hay demasiada como si hay poca. \nSe debe combinar con algún componente para que dure, como por ejemplo, “imbuir magia”."
+    },
+    {
+      "Nombre": "Vitalidad astral",
+      "Coste": 3,
+      "Requisitos": ["Esencia astral"],
+      "Palabras": "FALTA",
+      "Gestos": "FALTA",
+      "Efectos": "Debe combinarse para que dure.\nSolamente se puede usar sobre astrales. No se acumula. \nHay 4 potencias a elegir:\nBaja: Da una bonificación igual a un cuarto del nivel a los tres atributos físicos. \nMedia: Da una bonificación igual a un la mitad del nivel a los tres atributos físicos. Consume un 33% del agotamiento mágico del mago.\nAlta: Da una bonificación igual a al nivel del nivel a los tres atributos físicos.  Consume un 66% del agotamiento mágico del mago.\nTotal: Da una bonificación igual al doble del nivel del personaje a los tres atributos físicos. Agota mágicamente.\nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Vitalidad nigromántica",
+      "Coste": 3,
+      "Requisitos": ["Esencia nigromántica"],
+      "Palabras": "FALTA",
+      "Gestos": "FALTA",
+      "Efectos": "Debe combinarse para que dure.\nSolamente se puede usar sobre muertos vivientes. No se acumula. \nHay 4 potencias a elegir:\nBaja: Da una bonificación igual a un cuarto del nivel a los tres atributos físicos. \nMedia: Da una bonificación igual a un la mitad del nivel a los tres atributos físicos. Consume un 33% del agotamiento mágico del mago.\nAlta: Da una bonificación igual a al nivel del nivel a los tres atributos físicos.  Consume un 66% del agotamiento mágico del mago.\nTotal: Da una bonificación igual al doble del nivel del personaje a los tres atributos físicos. Agota mágicamente.\nHay tres versiones mejoradas: La superior (coste 6), la maestra (coste 9) y la épica (coste 15)"
+    },
+    {
+      "Nombre": "Vuelo",
+      "Coste": 3,
+      "Requisitos": ["Esencia de aire"],
+      "Palabras": "Ego volant",
+      "Gestos": "Extender los brazos",
+      "Efectos": "El personaje puede volar a velocidad 30m.\nSe debe combinar con algún componente para que dure, como por ejemplo, “imbuir magia”."
+    }
+  ]
+}
